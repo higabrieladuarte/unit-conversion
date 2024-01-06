@@ -18,7 +18,7 @@ function distance(){
     //To convert KMS to Miles
     // KMs * 0.62137
     var Km = document.getElementById("Km").value
-    var m = km * 0.62137
+    var m = Km * 0.62137
     document.getElementById("miles").value = m
     
 }
